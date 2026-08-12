@@ -1,16 +1,61 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built using **React.js** and **Material UI**.
 
-Currently, two official plugins are available:
+The application allows users to search for a city and view its current weather information using a weather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search weather by city name
+- 🌡️ Current temperature
+- 🌡️ Minimum and maximum temperature
+- 💧 Humidity
+- 🌬️ Atmospheric pressure
+- 🤗 Feels-like temperature
+- ☁️ Current weather condition
+- 🖼️ Weather-based images
+- 🎨 Material UI components and icons
+- 📱 Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Material UI
+- OpenWeatherMap API
+- Vite
+- HTML
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How It Works
+
+1. Enter a city name in the search box.
+2. Click the **Search** button.
+3. The application sends a request to the weather API.
+4. The API returns the current weather information.
+5. The application displays the weather details in a card.
+
+## 📊 Weather Information
+
+The application displays:
+
+- City name
+- Current temperature
+- Minimum temperature
+- Maximum temperature
+- Humidity
+- Atmospheric pressure
+- Weather condition
+- Feels-like temperature
+
+## 🌐 Live Demo
+
+[View Live Weather App](https://panthpatel-239.github.io/Weather-App/)
+
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/panthpatel-239/Weather-App.git
+```
