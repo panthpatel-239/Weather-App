@@ -26,6 +26,7 @@ export default function SearchBox({updateInfo}) {
                 humidity:data.main.humidity,
                 pressure:data.main.pressure,
                 weather:data.weather[0].main,
+                feelslike:data.main.feels_like,
             }
             console.log(result);
             return result;
