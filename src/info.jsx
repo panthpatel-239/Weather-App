@@ -8,10 +8,9 @@ import Typography from '@mui/material/Typography';
 
 
 export default function InfoBox({info}) {
-
-    let cold_url="https://www.shutterstock.com/image-photo/snowcovered-branches-snowflakes-air-glittering-260nw-2363590985.jpg";
-    let hot_url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg0gQ82LaImbOIgeb2ZHx5HGL_IoNE4fbka61yC6lwThHBtoZZzVfW3-8kxjXhyB0&s=10&ec=121924538";
-    let rain_url="https://i.pinimg.com/474x/8e/cf/79/8ecf7957bd461603b492feca775acddd.jpg";
+    let cold_url = "/Weather-App/cold_url.webp";
+    let hot_url = "/Weather-App/hot_url.jpg";
+    let rain_url = "/Weather-App/rain_url.jpg";
 
     return (
         <div className="InfoBox">
