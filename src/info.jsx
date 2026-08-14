@@ -8,9 +8,9 @@ import Typography from '@mui/material/Typography';
 
 
 export default function InfoBox({info}) {
-    let cold_url = "/Weather-App/cold_url.webp";
-    let hot_url = "/Weather-App/hot_url.jpg";
-    let rain_url = "/Weather-App/rain_url.jpg";
+    let cold_url = "/cold_url.webp";
+    let hot_url = "/hot_url.jpg";
+    let rain_url = "/rain_url.jpg";
 
     return (
         <div className="InfoBox">
